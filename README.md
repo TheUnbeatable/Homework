@@ -1,13 +1,13 @@
-<font face="consolas"></font>
+
 
 # Homework
 ---
 > 2017-10-21
 
-I intend to finish this list before the end of 2017
+<font face="consolas">I intend to finish this list before the end of 2017</font>
 
 > 2017-10-29
 
-The plan seem to be working out quite well, despite three hardest problems, I've finished all the rest.
+<font face="consolas">The plan seem to be working out quite well, despite three hardest problems, I've finished all the rest.</font>
 
-Another list is added and still I hope to finish it before 2017 (which is quite difficult to achieve).
+<font face="consolas">Another list is added and still I hope to finish it before 2017 (which is quite difficult to achieve).</font>
