@@ -4,7 +4,7 @@
 
 I intend to finish this list before the end of 2017
 
-> 2017-10-20
+> 2017-10-29
 
 The plan seem to be working out quite well, despite three hardest problems, I've finished all the rest.
 
