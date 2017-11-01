@@ -52,7 +52,6 @@ int main() {
     if (cur.lay != lay) {lay ++; st = 1; Init();}
     El = cur.El; Er = cur.Er;
     Ql = cur.Ql; Qr = cur.Qr;
-    //printf("%d %d %d %d %d\n", lay, El, Er, Ql, Qr);
     if (El == Er) {
       for (int i = Ql; i <= Qr; i ++) ans[qry[i].id] = El;
       continue;
