@@ -47,7 +47,7 @@
 > ![](http://images.cnblogs.com/cnblogs_com/the-unbeatable/1124861/o_aa.jpg)
 > ```cpp
 > for (int j = 1; j <= dp[cur].tot; j ++)
-      dp[cur].key[j] <<= 2;
+>      dp[cur].key[j] <<= 2;
 > ```
 
 ### 复杂度
@@ -85,8 +85,8 @@ http://www.yhzq-blog.cc/%E6%8F%92%E5%A4%B4dp-%E4%BB%8E%E4%B8%8D%E4%BC%9A%E5%88%B
 ### 实现：
 > ```cpp
 > inline bool balance(int x) {
-   return ((double)max(sz[ch[x][0]], sz[ch[x][1]]) <= (double)sz[x] * a);
-}
+>   return ((double)max(sz[ch[x][0]], sz[ch[x][1]]) <= (double)sz[x] * a);
+> }
 > ```
 > 每次插入后找到最高的不符合条件的点，将其子树暴力重建为最优形态
 
