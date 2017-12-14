@@ -23,9 +23,10 @@ One day I shall return.
 > 2017-12-14
 
 Whenever I click on a problem.
-
-if (I gets the solution) {
-  solve it in less than an hour;
-} else {
-  learn how to solve it;
-}
+```cpp
+  if (I gets the solution) {
+    solve it in less than an hour;
+  } else {
+    learn how to solve it;
+  }
+```
