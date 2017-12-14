@@ -18,4 +18,14 @@ It is far less than anticipated, I could have done better if I weren't so discon
 
 Anyway I'll keep on trying. Now I've got to devote all my time into Physics and Politics.
 
-One day I show return.
+One day I shall return.
+
+> 2017-12-14
+
+Whenever I click on a problem.
+
+if (I gets the solution) {
+  solve it in less than an hour;
+} else {
+  learn how to solve it;
+}
