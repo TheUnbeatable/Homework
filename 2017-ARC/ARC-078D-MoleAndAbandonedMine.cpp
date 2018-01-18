@@ -1,7 +1,6 @@
 #include <cstdio>
 #include <iostream>
 #include <cstring>
-#include <ctime>
 #define rus register unsigned short
 #define rs register short
 using namespace std;
@@ -37,7 +36,6 @@ int main() {
     G[x][y] = G[y][x] = z;
   }
   int t = 1 << n;
-  int st = clock();
   for (rus s = 1; s < t; s ++) {
     for (rs i = 0; i < n; i ++) cost[i][s] = cost[i][s - (s & (- s))];
     for (rs i = 0; i < n; i ++)
