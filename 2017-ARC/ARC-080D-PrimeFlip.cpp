@@ -45,7 +45,7 @@ public :
 bool notp[M];
 int prime[700000];
 
-inline void  make_prime(int Max) {
+inline void make_prime(int Max) {
   int tot = 0;
   for (int i = 2; i <= Max; i ++) {
     if (!notp[i]) prime[++ tot] = i;
