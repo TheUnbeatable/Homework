@@ -20,13 +20,4 @@ Anyway I'll keep on trying. Now I've got to devote all my time into Physics and 
 
 One day I shall return.
 
-> 2017-12-14
-
-Whenever I click on a problem.
-```cpp
-  if (I gets the solution) {
-    solve it in less than an hour;
-  } else {
-    learn how to solve it;
-  }
-```
+凡王之血，必以剑终。
