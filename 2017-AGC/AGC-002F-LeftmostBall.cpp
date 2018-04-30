@@ -36,7 +36,7 @@ int main() {
   int n, k;
   scanf("%d%d", &n, &k);
   if (k == 1 || n == 1) return !puts("1");
-  MathCal::Init(n * k);
+  Init(n * k);
   dp[0][0] = 1;
   for (rs i = 1; i <= n; i ++)
     for (rs j = 0; j <= i; j ++) {
