@@ -1,4 +1,4 @@
-# Homework
+﻿# Homework
 ---
 > 2017-10-21
 
@@ -20,4 +20,8 @@ Anyway I'll keep on trying. Now I've got to devote all my time into Physics and 
 
 One day I shall return.
 
-凡王之血，必以剑终。
+> 2018-4-23
+
+With the help of Chinese solutions I regain confidence to finish the AGC part.
+
+Many thanks to acyume.
