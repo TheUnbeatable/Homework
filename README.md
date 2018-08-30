@@ -2,12 +2,16 @@
 ---
 > 2017-10-21
 
-The plan starts on 2017-ARC/AGC.
+The plan starts for 2017-ARC/AGC.
 
 > 2018-08-14
 
-PE-Optional.
+Added ./PE-Optional.
 
 > 2018-08-20
 
-ASC-Optinal
+Added ./ASC-Optinal
+
+> 2018-08-30
+
+Added ./dev/python for problems written in python
