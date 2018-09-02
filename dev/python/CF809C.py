@@ -24,7 +24,7 @@ def solve(x, y, k, add = 0) :
 
 q = int(input())
 for i in range(0, q) :
-    x1, y1, x2, y2, k = list(map(int, input().split()))    
+    x1, y1, x2, y2, k = list(map(int, input().split()))
     ans = ( solve(x2, y2, k)\
             - solve(x1 - 1, y2, k)\
             - solve(x2, y1 - 1, k)\
