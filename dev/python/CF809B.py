@@ -1,5 +1,4 @@
 import sys
-# print("2333", file = sys.stderr)
 def ask(x, y) :
     print("1", x, y)
     sys.stdout.flush()
