@@ -35,8 +35,6 @@ int main() {
       for (int k = m - i - j; ~ k; k --) {
         long long tmp = dp[i][j][k];
         if (!tmp) continue;
-        // if (tmp)
-        //   cerr << i << " " << j << " " << k << ": " << tmp << endl;
         for (int a = min(i, 4); ~ a; a --)
           for (int b = min(j, 4 - a); ~ b; b --)
             if (4 - a - b <= k)
