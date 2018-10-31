@@ -119,9 +119,3 @@ public:
     return ans;
   }
 };
-
-int main() {
-  FindingFriends solver;
-  cerr << solver.shortestDistance(100000, {967948965}, 758179342, 788391896, 28648718, 999999937, 3) << endl;
-  return 0;
-}
