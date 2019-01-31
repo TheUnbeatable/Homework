@@ -58,12 +58,6 @@ inline void Dfs(int x) {
   if (x == 1) return;
   int p = R[x] - Max[x] + 1;
   int q = R[x] - (Max[fa[x]] + 1) + 1;
-  // cerr << "!!!!!!!!!!" << endl;
-  // cerr << pos[x] << ": " << L[x] << " " << R[x] << " / " << p << " " << q << endl;
-  // for (int i = p; i <= q; i ++) {
-  //   for (int j = i; j <= R[x]; j ++) putchar(s[j]);
-  //   puts("");
-  // }
   int delta = q - p + 1;
   if (q <= L[x]) {
     add(1, q, delta);
@@ -88,7 +82,6 @@ int main() {
   for (int i = 1; i < n; i ++) {
     d[i] += d[i - 1];
     ans = (ans * base + d[i]) % mod;
-    // cerr << d[i] << " ";
   }
   printf("%lld\n", ans);
   return 0;
