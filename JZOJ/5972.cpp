@@ -85,9 +85,6 @@ inline LL calc(int a, int b) {
   for (auto p : mo[a]) {
     int f = t + (p.first - a);
     wnum[++ top] = f - p.second;
-    if (a == 0 && b == 3) {
-      cerr << "!!! " << f << " " << p.second << endl;
-    }
   }
   t += C;
   for (auto p : mo[b]) {
